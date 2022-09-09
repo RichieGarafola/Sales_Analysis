@@ -7,7 +7,7 @@
 A company has been tracking their sales for the year of 2019. At the end of the fisical year the company decided to upgrade tech from using Excel to a more optimal SQL-centric database.
  The data contains hundreds of thousands of electronics store purchases broken down by 'Order ID', 'Product', 'Quantity Ordered', 'Price Each', 'Order Date', 'Purchase Address'. Analyze the dataset and answer the following quesitons.
 
-**CSV File:** [Sales Data](Resources/sales.csv)
+**CSV File:** [Sales Data](./Resources/sales.csv)
 
 Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
 
