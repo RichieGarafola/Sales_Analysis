@@ -74,6 +74,11 @@ Analyze the data to answer the following questions:
 
 
 
+### Answers
+
+- Question 1: In Q4 the sales spiked, this can be for a number of reasons, one potentially being the holiday season.
+- Question 2: San Francisco has the most sales followed by Los Angeles and New York City.
+- Question 3: Around 11am and 7pm, peaks can be observed in our data. It may make the most sence to advertise around that time.
 
 ---
 
