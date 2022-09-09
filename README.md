@@ -60,6 +60,8 @@ First, read and clean our CSV file for analysis. The CSV file includes hundreds 
 ### Data-Exploration-And-Visualization
 
 Analyze the data to answer the following questions:
+
+
     - Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
 
     - Question 2: What city sold the most product? Plot that in a bar chart.
