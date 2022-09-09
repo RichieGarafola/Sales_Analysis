@@ -47,7 +47,7 @@ First, read and clean our CSV file for analysis. The CSV file includes hundreds 
 2. Detect and remove null values.
     sales_df.dropna(how='all', inplace=True)
     
-3. Remove the text in the 'Order Date column' by taking the first 2 characters in the string and make that the month column. The months are being read in as 'Or' so make our month column numerical we need to simply state not equal to 'Or' 
+3. Remove the text in the 'Order Date column' by taking the first 2 characters in the string and make that the month column. The months are being read in as 'Or' so to make our month column numerical we need to simply state not equal to 'Or' 
     - sales_df[sales_df['Order Date'].str[0:2]!='Or']
     
         
