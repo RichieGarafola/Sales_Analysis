@@ -9,7 +9,7 @@ A company has been tracking their sales for the year of 2019. At the end of the 
  
  Deployable Dashboard: https://salesdashboard.streamlitapp.com/
 
-**CSV File:** [Sales Data](Images/sales.csv)
+**CSV File:** [Sales Data](Resources/Sales.csv)
 
 ## Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
 
