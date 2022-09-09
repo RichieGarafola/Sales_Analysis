@@ -7,13 +7,13 @@
 A company has been tracking their sales for the year of 2019. At the end of the fisical year the company decided to upgrade tech from using Excel to a more optimal SQL-centric database.
  The data contains hundreds of thousands of electronics store purchases broken down by 'Order ID', 'Product', 'Quantity Ordered', 'Price Each', 'Order Date', 'Purchase Address'. Analyze the dataset and answer the following quesitons.
 
-**CSV File:** [Sales Data](./Resources/Sales.csv)
+**CSV File:** [Sales Data](Images/sales.csv)
 
-Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
+## Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
 
-Question 2: What city sold the most product? Plot that in a bar chart.
+## Question 2: What city sold the most product? Plot that in a bar chart.
 
-Question 3: What time should we display advertisements to maximize likelihood of customer's buying product? Plot that in a line chart.
+## Question 3: What time should we display advertisements to maximize likelihood of customer's buying product? Plot that in a line chart.
  
 ---
 
@@ -47,7 +47,7 @@ First, read and clean our CSV file for analysis. The CSV file includes hundreds 
 2. Detect and remove null values.
     sales_df.dropna(how='all', inplace=True)
     
-3. Remove the text in the 'Order Date column' by taking the first 2 characters in the string and make that the month column. The months are being read in as 'Or' so to make our month column numerical we need to simply state not equal to 'Or' 
+3. Remove the text in the 'Order Date column' by taking the first 2 characters in the string and make that the month column. The months are being read in as 'Or' so make our month column numerical we need to simply state not equal to 'Or' 
     - sales_df[sales_df['Order Date'].str[0:2]!='Or']
     
         
@@ -71,6 +71,9 @@ Analyze the data to answer the following questions:
     
 
 ### Create a Custom Dashboard
+
+Streamlit Dashboard:
+**File:** [Sales Analysis Dashboard](./Sales_Analysis_Dashboard.py)
 
 
 
@@ -109,3 +112,6 @@ Analyze the data to answer the following questions:
 * ![Sales by Month](Images/sales_by_month.png)
 * ![Sales_df](Images/sales_df.png)
 * ![Sales Analysis](Images/sales-analysis.png)
+* ![Dashboard Sales by Month](Images/dashboard_sales_by_month.png)
+* ![Dashboard Sales by City](Images/dashboard_sales_by_city.png)
+* ![Dashboard Ad Times](Images/dashboard_ad_times.png)
