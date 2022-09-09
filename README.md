@@ -6,6 +6,8 @@
 
 A company has been tracking their sales for the year of 2019. At the end of the fisical year the company decided to upgrade tech from using Excel to a more optimal SQL-centric database.
  The data contains hundreds of thousands of electronics store purchases broken down by 'Order ID', 'Product', 'Quantity Ordered', 'Price Each', 'Order Date', 'Purchase Address'. Analyze the dataset and answer the following quesitons.
+ 
+Deployable link to Dashboard: https://salesdashboard.streamlitapp.com/
 
 **CSV File:** [Sales Data](Images/sales.csv)
 
