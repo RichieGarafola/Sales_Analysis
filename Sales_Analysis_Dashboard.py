@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # Set the path to the 'Sales.csv' file
-csv_path = Path('./Resources/new_sales_df.csv')
+csv_path = Path('./Resources/new_sales_df.zip')
 
 #Read in the 'Sales.csv' file
 sales_df = pd.read_csv(csv_path)
