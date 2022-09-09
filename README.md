@@ -75,6 +75,12 @@ Analyze the data to answer the following questions:
 Streamlit Dashboard:
 **File:** [Sales Analysis Dashboard](./Sales_Analysis_Dashboard.py)
 
+**View the Streamlit application**
+Run the Streamlit application to view a completed Sales Analysis Dashboard. To do so, complete the following steps:
+
+1. In the terminal, navigate to the projects folder.
+2. In the terminal, run the Streamlit application by using streamlit run "Sales_Analysis_Dashboard.py"
+
 
 
 ### Answers
