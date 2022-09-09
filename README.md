@@ -9,11 +9,11 @@ A company has been tracking their sales for the year of 2019. At the end of the 
 
 **CSV File:** [Sales Data](Images/sales.csv)
 
-## Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
+Question 1: What was the best month for sales? How much was earned that month? Plot that in a bar chart.
 
-## Question 2: What city sold the most product? Plot that in a bar chart.
+Question 2: What city sold the most product? Plot that in a bar chart.
 
-## Question 3: What time should we display advertisements to maximize likelihood of customer's buying product? Plot that in a line chart.
+Question 3: What time should we display advertisements to maximize likelihood of customer's buying product? Plot that in a line chart.
  
 ---
 
