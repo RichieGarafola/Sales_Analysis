@@ -86,6 +86,7 @@ Run the Streamlit application to view a completed Sales Analysis Dashboard. To d
 2. In the terminal, run the Streamlit application by using streamlit run "Sales_Analysis_Dashboard.py"
 
 
+![Sales Analysis](Images/sales_analysis.gif)
 
 ### Answers
 
